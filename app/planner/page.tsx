@@ -23,7 +23,7 @@ export default function PlannerPage() {
       </div>
       <div className="rounded-2xl bg-white p-5 shadow-sm">
         <div className="font-semibold mb-2">הצעת תוכנית</div>
-        <p className="text-sm text-gray-700">תיאור מוצע מבוסס תשובות. כאן תשולב קריאה ל-API של AI.</p>
+        <p className="text-sm text-gray-700">כאן נשייך מאוחר יותר קריאה ל‑API של AI.</p>
       </div>
     </div>
   );

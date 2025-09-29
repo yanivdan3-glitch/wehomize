@@ -1,6 +1,6 @@
 import { loadCSV } from "@/lib/data";
 
-type Item = { id: string; name: string; price: string; thumbnail: string; };
+type Item = { id: string; name: string; price: string; thumbnail?: string; };
 export default async function MarketplacePage() {
   const products = await loadCSV<Item>("/data/products.csv");
   return (

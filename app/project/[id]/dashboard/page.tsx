@@ -1,7 +1,8 @@
-export default function ProjectDashboard() {
+type Props = { params: { id: string } };
+export default function ProjectDashboard({ params }: Props) {
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold">דשבורד פרויקט #123</h1>
+      <h1 className="text-2xl font-bold">דשבורד פרויקט #{params.id}</h1>
       <div className="grid md:grid-cols-3 gap-4">
         <div className="rounded-2xl bg-white p-4 shadow-sm">
           <div className="font-semibold mb-2">שלבים</div>

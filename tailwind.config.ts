@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 export default {
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
-  theme: { extend: { borderRadius: { xl: "var(--radius)" } } },
+  theme: { extend: { borderRadius: { xl: "1rem" } } },
   plugins: [],
 } satisfies Config;

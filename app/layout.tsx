@@ -25,14 +25,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         <main className="max-w-6xl mx-auto px-4 py-8">{children}</main>
-        <footer className="border-t bg-white">
-          <div className="max-w-6xl mx-auto px-4 py-6 text-xs text-gray-500 flex flex-wrap gap-4">
-            <a href="/professionals">מצא אנשי מקצוע</a>
-            <a href="/suppliers">ספקים</a>
-            <a href="/marketplace">מוצרים</a>
-            <a href="/project/new">הפרויקטים שלי</a>
-          </div>
-        </footer>
       </body>
     </html>
   );
